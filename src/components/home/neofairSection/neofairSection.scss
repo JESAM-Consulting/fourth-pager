@@ -1,7 +1,7 @@
 @import '../../../styles/mixins/global.scss';
 
 .neo-fair-section-all-content-alignment {
-    padding: 65px 0 183px 0;
+    padding: 65px 0 83px 0;
 
     @include breakpoint("max-sm") {
         padding: 45px 0 100px 0;
@@ -195,7 +195,7 @@
     }
 
     .section-title {
-        padding: 0 0 96px 0;
+        padding: 0 0 60px 0;
 
         @include breakpoint("max-sm") {
             padding: 0 0 75px 0;

@@ -88,7 +88,9 @@ export default function Recruiting() {
       ApiPost(`contactForm2/create`, inputValue)
         .then((res) => {
           console.log("errrrrrrrrrssssssss", res);
-          toast.success("submit successfully");
+          toast.success(
+            "Vielen Dank, Ihre Daten wurden erfolgreich eingereicht."
+          );
           setInputValue({});
           setTimeout(() => {
             history.push("/");
@@ -231,7 +233,7 @@ export default function Recruiting() {
                 </a>
               </div>
               <div className="text-style">
-                <span>Verbraucherschutzkonform</span>
+                <span> Verbraucherschutzkonform nach</span>
               </div>
               <div className="new-image-center-alignment">
                 <img src={NewLogo} alt="NewLogo" />
