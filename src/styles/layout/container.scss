@@ -1,0 +1,111 @@
+// @use  '';
+@use "../mixins/breakpoint.scss" as bp;
+$bp: (
+  base: 0px,
+  sm: 540px,
+  md: 992px,
+  lg: 1280px,
+);
+
+@import '../mixins/breakpoint.scss';
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include bp.breakpoint(md) {
+    max-width: 80%;
+  }
+
+  @include bp.breakpoint(lg) {
+    max-width: 1280px;
+  }
+}
+
+
+.container-md {
+  max-width: calc(1153px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include breakpoint("max-md") {
+    padding: 0 30px;
+  }
+
+  @include breakpoint("max-sm") {
+    padding: 0 30px;
+  }
+}
+
+.container-md2 {
+  max-width: calc(865px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include breakpoint("max-md") {
+    padding: 0 30px;
+  }
+
+  @include breakpoint("max-sm") {
+    padding: 0 30px;
+  }
+}
+
+.container-md3 {
+  max-width: calc(935px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include breakpoint("max-md") {
+    padding: 0 30px;
+  }
+
+  @include breakpoint("max-sm") {
+    padding: 0 30px;
+  }
+
+
+}
+
+.container-md4 {
+  max-width: calc(900px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include breakpoint("max-md") {
+    padding: 0 30px;
+  }
+
+  @include breakpoint("max-sm") {
+    padding: 0 30px;
+  }
+}
+
+.container-md5 {
+  max-width: calc(787px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include breakpoint("max-md") {
+    padding: 0 30px;
+  }
+
+  @include breakpoint("max-sm") {
+    padding: 0 30px;
+  }
+}
+
+.container-md6 {
+  max-width: calc(895px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include breakpoint("max-md") {
+    padding: 0 30px;
+  }
+
+  @include breakpoint("max-sm") {
+    padding: 0 30px;
+  }
+}

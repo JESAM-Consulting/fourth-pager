@@ -1,0 +1,78 @@
+// @use './mixins/breakpoint.scss';
+// @use './mixins/typography.scss';
+// @use './mixins/columns.scss';
+// @use './function/columns.scss';
+// @use './layout/container.scss';
+// @use './mixins/index.scss';
+
+
+@import '../function/columns.scss';
+@import '../layout/container.scss';
+@import '../mixins/columns.scss';
+@import '../mixins/breakpoint.scss';
+@import '../mixins/index.scss';
+@import '../mixins/typography.scss';
+
+@font-face {
+    font-family: "VisbyLight";
+    src: url("../../assets/font/VisbyLight.otf");
+}
+
+@font-face {
+    font-family: "VisbyBold";
+    src: url("../../assets/font/VisbyBold.otf");
+}
+
+@font-face {
+    font-family: "VisbyExtrabold";
+    src: url("../../assets/font/VisbyExtrabold.otf");
+}
+
+@font-face {
+    font-family: "VisbyRegular";
+    src: url("../../assets/font/VisbyRegular.otf");
+}
+
+@font-face {
+    font-family: "Branding-Medium";
+    src: url("../../assets/font/Branding\ Medium.otf");
+}
+
+@font-face {
+    font-family: "Branding-Light";
+    src: url("../../assets/font/Branding\ Light.otf");
+}
+
+.button {
+    button {
+        border: none;
+        color: #fff;
+        padding: 15px 40px;
+        background: #9DBC78;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        border-radius: 7px;
+
+        @include breakpoint("max-md") {
+            padding: 15px 40px;
+            font-weight: 500;
+            border-radius: 7px;
+            font-size: 11px;
+            line-height: 13px;
+        }
+    }
+}
+
+a:focus {
+    outline: none;
+    border: none;
+}
+
+
+a {
+    text-decoration: none;
+
+}

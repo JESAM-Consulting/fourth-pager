@@ -1,0 +1,129 @@
+@import '../../../styles/mixins/global.scss';
+
+.lauft-section-all-content-alignment {
+    padding: 43px 0 141px 0;
+
+    @include breakpoint("max-sm") {
+        padding: 0 0 56px 0;
+    }
+
+    .container-md {
+        @include breakpoint("max-md") {
+            padding: 0 11px;
+        }
+    }
+
+    .section-title {
+        padding: 0 0 92px 0;
+
+        @include breakpoint("max-md") {
+            padding: 0 0 40px 0;
+        }
+
+        h2 {
+            font-weight: 500;
+            font-size: 32px;
+            color: #1F3702;
+            text-align: center;
+            line-height: 39px;
+
+            @include breakpoint("max-sm") {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 22px;
+
+        @include breakpoint("max-md") {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px 5px;
+        }
+
+        .grid-items {
+            background: #F0F0F0;
+            border-radius: 150px;
+
+            .card-details {
+                padding: 36px 22px 77px 22px;
+
+                @include breakpoint("max-sm") {
+                    padding: 13px 13px 80px 13px;
+                }
+
+                .counter {
+                    background: #9DBC78;
+                    border-radius: 30px;
+                    color: #fff;
+                    width: 24px;
+                    height: 36px;
+                    margin: 0 0 10px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                    @include breakpoint("max-sm") {
+                        margin: 0 0 6px 0;
+                    }
+                }
+
+                h2 {
+                    font-weight: 500;
+                    margin: 0 0 10px 0;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #000;
+
+                    @include breakpoint("max-sm") {
+                        font-weight: 500;
+                        font-size: 14px;
+                        margin: 0 0 6px 0;
+                        line-height: 20px;
+                    }
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 19px;
+                    color: #000;
+
+                    @include breakpoint("max-sm") {
+                        font-weight: 500;
+                        font-size: 8px;
+                        line-height: 17px;
+                        max-width: 146px;
+                    }
+                }
+            }
+
+            .image-rounded {
+                @include breakpoint("max-sm") {
+                    height: 173px;
+                }
+
+                img {
+                    width: 271px;
+                    height: 271px;
+                    border-radius: 50%;
+                    object-fit: cover;
+
+                    @include breakpoint("max-sm") {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+        }
+    }
+}

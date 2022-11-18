@@ -1,0 +1,275 @@
+@import '../../../styles/mixins/global.scss';
+
+.fe-finance-all-content-alignment {
+    padding: 0 0 70px 0;
+
+    @include breakpoint("max-sm") {
+        padding: 80px 0 120px 0;
+    }
+
+    .bottom-text {
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            cursor: pointer;
+            margin: 0 0 7px 0;
+            color: #000000;
+        }
+
+        span {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            display: block;
+            color: #626262;
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 240px 1fr;
+        gap: 15px;
+        padding: 0 0 26px 0;
+        align-items: center;
+
+        @include breakpoint("max-md") {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+        }
+
+        .grid-items:nth-child(2) {
+            @include breakpoint("max-sm") {
+                order: 1;
+            }
+        }
+
+        .grid-items:nth-child(1) {
+            @include breakpoint("max-sm") {
+                order: 2;
+            }
+        }
+
+        .grid-items:nth-child(3) {
+            @include breakpoint("max-sm") {
+                order: 3;
+            }
+        }
+
+        .grid-items {
+            .image-design {
+                width: 240px;
+                height: 240px;
+                object-fit: cover;
+
+                @include breakpoint("max-sm") {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                img {
+                    width: 240px;
+                    height: 240px;
+                }
+            }
+
+            .right-text {
+                div:last-child {
+                    padding: 0;
+                }
+
+                div {
+                    padding: 0 0 40px 0;
+
+                    @include breakpoint("max-sm") {
+                        padding: 0 0 30px 0;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 15px;
+                        /* identical to box height */
+                        color: #000000;
+                        cursor: pointer;
+
+                        @include breakpoint("max-sm") {
+                            font-weight: 500;
+                            font-size: 11px;
+                            line-height: 13px;
+                            text-align: center;
+                            margin: 0 0 7px 0;
+                        }
+                    }
+
+                    span {
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 18px;
+                        display: block;
+                        color: #626262;
+
+                        @include breakpoint("max-sm") {
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 18px;
+                            text-align: center;
+
+                        }
+
+                    }
+                }
+            }
+
+            .left-side-text-alignment {
+                div:last-child {
+                    padding: 0;
+                }
+
+                div {
+                    padding: 0 0 50px 0;
+
+                    @include breakpoint("max-sm") {
+                        padding: 0 0 30px 0;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 18px;
+                        cursor: pointer;
+                        text-align: right;
+                        color: #000000;
+                        margin: 0;
+
+                        @include breakpoint("max-sm") {
+                            font-weight: 500;
+                            font-size: 11px;
+                            line-height: 13px;
+                            margin: 0 0 3px 0;
+                            text-align: center;
+                        }
+                    }
+
+                    span {
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 18px;
+                        text-align: right;
+                        display: block;
+                        color: #626262;
+
+                        @include breakpoint("max-sm") {
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 18px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .section-title {
+        padding: 0 0 64px 0;
+
+        @include breakpoint("max-sm") {
+            padding: 0 0 80px 0;
+        }
+
+        span {
+            display: block;
+            text-align: center;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            padding: 0 0 3px 0;
+            color: #1F3702;
+
+            @include breakpoint("max-sm") {
+                font-weight: 700;
+                font-size: 13px;
+                padding: 0 0 6px 0;
+                line-height: 16px;
+            }
+        }
+
+        p {
+            font-weight: 500;
+            color: #1F3702;
+            text-align: center;
+            font-size: 32px;
+            line-height: 39px;
+
+            @include breakpoint("max-sm") {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.fe-finace-modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .fe-finace-modal {
+        width: 455px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px 30px;
+
+        @include breakpoint("max-sm") {
+            width: calc(100% - 40px);
+            padding: 20px;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            margin: 0 0 15px 0;
+
+            @include breakpoint("max-sm") {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 17px;
+            color: #000;
+        }
+
+        .close-right-alignment {
+            display: flex;
+            padding: 0 0 20px 0;
+            align-items: center;
+            justify-content: flex-end;
+
+            img {
+                cursor: pointer;
+            }
+        }
+
+    }
+}

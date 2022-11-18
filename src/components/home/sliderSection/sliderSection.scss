@@ -1,0 +1,150 @@
+@import '../../../styles/mixins/global.scss';
+
+.slider-section-all-content-alignment {
+    padding: 0 0 0 0;
+
+    .left-icon,
+    .new-right-icon {
+        img {
+            @include breakpoint("max-sm") {
+                max-width: 60px;
+            }
+        }
+    }
+
+    .section-title {
+        padding: 0 0 34px 0;
+
+        @include breakpoint("max-sm") {
+            padding: 0 0 40px 0;
+        }
+
+        h2 {
+            font-weight: 500;
+            font-size: 32px;
+            color: #1F3702;
+            line-height: 39px;
+
+            @include breakpoint("max-sm") {
+                font-weight: 500;
+                font-size: 20px;
+                max-width: 280px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .new-right-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .left-arrow-alignment {
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        transform: translateY(-50%);
+        z-index: 999;
+
+        @include breakpoint("max-sm") {
+            left: -15px;
+        }
+
+        img {
+            cursor: pointer;
+
+            @include breakpoint("max-sm") {
+                height: 15px;
+            }
+        }
+    }
+
+    .right-icon-alignment {
+        position: absolute;
+        top: 50%;
+        right: -30px;
+        transform: translateY(-50%);
+        z-index: 999;
+
+        @include breakpoint("max-sm") {
+            right: -16px;
+        }
+
+        img {
+            cursor: pointer;
+
+            @include breakpoint("max-sm") {
+                height: 15px;
+            }
+        }
+    }
+
+    .slider-all-section-content-alignment {
+        .slider-text-style {
+            p {
+                font-weight: 500;
+                color: #AAAAAA;
+                max-width: 733px;
+                font-family: "Branding-Light";
+                margin: 0 auto 30px auto;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+
+                @include breakpoint("max-sm") {
+                    font-weight: 500;
+                    max-width: 305px;
+                    font-size: 12px;
+                    margin: 0 auto 10px auto;
+                    line-height: 16px;
+                    text-align: center;
+                }
+            }
+
+            .rating-icon-alignment {
+                display: flex;
+                padding: 0 0 30px 0;
+                align-items: center;
+                gap: 3px;
+                justify-content: center;
+
+                @include breakpoint("max-sm") {
+                    padding: 0 0 10px 0;
+                }
+            }
+
+            a {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px;
+                text-align: center;
+                text-decoration-line: underline;
+                display: block;
+                color: #98B270;
+                cursor: pointer;
+
+                @include breakpoint("max-sm") {
+                    font-weight: 400;
+                    font-size: 11px;
+                    line-height: 20px;
+                }
+            }
+
+            h5 {
+                text-align: center;
+                font-weight: 700;
+                margin: 0 0 30px 0;
+                font-size: 24px;
+                color: #010102;
+                line-height: 27px;
+
+                @include breakpoint("max-sm") {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
+                    margin: 0 0 10px 0;
+                }
+            }
+        }
+    }
+}

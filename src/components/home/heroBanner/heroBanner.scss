@@ -1,0 +1,111 @@
+@import '../../../styles/mixins/global.scss';
+
+.hero-banner-design {
+    background-image: url("../../../assets/images/hero-banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 753px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    @include breakpoint("max-sm") {
+        background-image: url("../../../assets/images/mobile-banner.svg");
+        height: 434px;
+    }
+
+    .logo {
+        max-width: 100%;
+        width: 100%;
+        padding: 40px 50px;
+        cursor: pointer;
+        position: relative;
+
+        @include breakpoint("max-md") {
+            padding: 27px 30px 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        img:first-child {
+            @include breakpoint("max-sm") {
+                display: none;
+            }
+        }
+
+        img:last-child {
+            display: none;
+
+            @include breakpoint("max-sm") {
+                display: block;
+            }
+        }
+
+        img {
+            @include breakpoint("max-md") {
+                max-width: 53px;
+            }
+        }
+    }
+
+    .hero-banner-text {
+        padding: 190px 0 0 0;
+        position: relative;
+
+        @include breakpoint("max-md") {
+            padding: 140px 0 0 0;
+        }
+
+        .text-style {
+            h1 {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                color: #fff;
+                max-width: 460px;
+                margin: 0 0 10px 0;
+
+                @include breakpoint("max-md") {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+
+                @include breakpoint("max-sm") {
+                    max-width: 288px;
+                }
+
+                span {
+                    font-weight: 400;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                margin: 0 0 40px 0;
+                max-width: 461px;
+                color: #fff;
+
+                @include breakpoint("max-sm") {
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 12px;
+                    max-width: 288px;
+                    margin: 0 0 20px 0;
+                }
+            }
+        }
+    }
+}
