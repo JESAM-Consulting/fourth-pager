@@ -67,6 +67,10 @@ export default function Recruiting() {
       isFormValid = false;
       errors["phone"] = "*Bitte überprüfen Sie ihre Eingabe.";
     }
+    if (!inputValue?.group || inputValue?.group === "") {
+      isFormValid = false;
+      errors["group"] = "*Bitte überprüfen Sie ihre Eingabe.";
+    }
     // if (terms === false) {
     //   isFormValid = false;
     //   errors["check1"] = "*Bitte überprüfen Sie ihre Eingabe.";
@@ -214,6 +218,54 @@ export default function Recruiting() {
                 >
                   {errors["phone"]}
                 </span>
+                      <select
+                        className={`form-control form-control-lg form-control-solid `}
+                        onChange={(e) => {
+                          handleOnChange(e);
+                        }}
+                        name="group"
+                        defaultValue={inputValue?.group}
+                      >
+                        <option value="Zusammen macht's mehr Spaß: Bringe Kommilitonen mit" selected disabled>
+                        Zusammen macht's mehr Spaß: Bringe Kommilitonen mit
+                        </option>
+                        <option value="group1plus">Group1+</option>
+                        <option value="group2plus">Group2+</option>
+                        <option value="group5plus">Group5+</option>
+                      </select>
+                   
+                    <span
+                      style={{
+                        color: "red",
+                        top: "5px",
+                        fontSize: "12px",
+                      }}
+                    >
+                      {errors["group"]}
+                    </span>
+                    <input
+                  type="date"
+                
+                  id="trainingDate"
+                  name="trainingDate"
+                  value={inputValue?.trainingDate}
+                  onChange={(e) => {
+                    handleOnChange(e);
+                  }}
+              
+                />
+                  <span
+                      style={{
+                        color: "red",
+                        top: "5px",
+                        fontSize: "12px",
+                      }}
+                    >
+                      {errors["trainingDate"]}
+                    </span>
+                
+
+
                 <div className="ok-button">
                   <button onClick={(e) => submitContact(e)}>Absenden</button>
                 </div>
