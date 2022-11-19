@@ -1,7 +1,7 @@
 @import '../../../styles/mixins/global.scss';
 
 .fe-finance-all-content-alignment {
-    padding: 0 0 70px 0;
+    padding: 0 0 40px 0;
 
     @include breakpoint("max-sm") {
         padding: 60px 0 40px 0;
@@ -121,7 +121,7 @@
                     p {
                         font-weight: 500;
                         font-size: 15px;
-                        line-height: 18px;
+                        line-height: 26px;
                         cursor: pointer;
                         text-align: right;
                         color: #000000;
@@ -256,7 +256,7 @@
 }
 
 .fe-finance-bottom-text-alignment {
-    padding: 0 0 100px 0;
+    padding: 0 0 60px 0;
 
     @include breakpoint("max-sm") {
         padding: 0 0 60px 0;
@@ -291,7 +291,7 @@
         span {
             font-weight: 500;
             font-size: 15px;
-            line-height: 18px;
+            line-height: 24px;
             cursor: pointer;
             color: #000000;
             margin: 0;
