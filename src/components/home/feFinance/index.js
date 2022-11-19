@@ -22,12 +22,12 @@ export default function FeFinance() {
               <div className="left-side-text-alignment">
                 <div>
                   <p onClick={() => setModalOpen(!modalOpen)}>
-                    Wo bietet ihr Erste-Hilfe-Kurse an?
+                    Wo finden die Erste-Hilfe-Kurse statt?
                   </p>
                 </div>
                 <div>
                   <p onClick={() => setModalOpen2(!modalOpen2)}>
-                    Wie finden die Termine statt?
+                    Wie läuft das Beratungsgespräch ab?
                   </p>
                 </div>
               </div>
@@ -41,23 +41,87 @@ export default function FeFinance() {
               <div className="right-text">
                 <div>
                   <p onClick={() => setModalOpen3(!modalOpen3)}>
-                    Wie garantiert ihr eine unabhängige und individuelle
-                    Beratung?
+                    Kann die Beratung auch online stattfinden?
                   </p>
                 </div>
                 <div>
                   <p onClick={() => setModalOpen4(!modalOpen4)}>
-                    Mit welchem Partner Arbeitet ihr zusammen?
+                    Warum FE Finance?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="bottom-text"
-            onClick={() => setModalOpen5(!modalOpen5)}
-          >
-            <p>Was sind Inhalte der Beratung zum Start ins Referendariat?</p>
+        </div>
+      </div>
+
+      <div className="fe-finance-bottom-text-alignment">
+        <div className="container-md5">
+          <h2>Unsere Mehrwerte auf einen Blick:</h2>
+          <div className="text-grid">
+            <div className="text-grid-items">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div className="text-grid-items">
+              <span>
+                {" "}
+                Individuelle Beratung für Student*innen, Referendar*innen und
+                Lehrer*innen
+              </span>
+            </div>
+          </div>
+          <div className="text-grid">
+            <div className="text-grid-items">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div className="text-grid-items">
+              <span>
+                {" "}
+                Maßgeschneiderte Versicherungen und Sparlösungen für Deinen
+                Lifestyle
+              </span>
+            </div>
+          </div>
+          <div className="text-grid">
+            <div className="text-grid-items">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div className="text-grid-items">
+              <span>
+                Unabhängige Lösungen ohne Bindung an konkrete
+                Versicherungsgesellschaften
+              </span>
+            </div>
+          </div>
+          <div className="text-grid">
+            <div className="text-grid-items">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div className="text-grid-items">
+              <span>
+                Smarte Empfehlungen, die Dir eine Menge Geld einsparen
+              </span>
+            </div>
+          </div>
+          <div className="text-grid">
+            <div className="text-grid-items">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div className="text-grid-items">
+              <span>
+                {" "}
+                Echte Expertise von Profis, die sich auf die Absicherung von
+                Lehrkräften spezialisiert haben
+              </span>
+            </div>
+          </div>
+          <div className="text-grid">
+            <div className="text-grid-items">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div className="text-grid-items">
+              <span> Verbraucherschutzkonform nach DIN 77230</span>
+            </div>
           </div>
         </div>
       </div>
@@ -71,16 +135,11 @@ export default function FeFinance() {
             >
               <img src={CloseIcon} alt="CloseIcon" />
             </div>
-            <h2>Wo bietet ihr Erste-Hilfe-Kurse an?</h2>
+            <h2>Wo finden die Erste-Hilfe-Kurse statt?</h2>
             <p>
-              Lorem ipsum dolor sit amet. Non consequatur molestiae rem debitis
-              voluptatibus sed blanditiis commodi sit maiores repellat. Nam
-              provident rerum qui illo eaque vel pariatur totam sed quia quaerat
-              et veritatis quos et eligendi atque cum eaque soluta! Sed dolores
-              eaque eum voluptate aliquam vel harum nihil sed porro magni est
-              rerum natus rem necessitatibus veniam aut explicabo dicta. Et
-              illum accusantium cum omnis rerum ut eius optio qui consequatur
-              maiores qui ducimus internos.
+              Unsere Kurse finden in ganz Deutschland bei unseren zertifizierten
+              Partnern statt. Dazu gehören beispielsweise das Deutsche Rote
+              Kreuz, Malteser und M-A-U-S gGmbH.
             </p>
           </div>
         </div>
@@ -95,16 +154,12 @@ export default function FeFinance() {
             >
               <img src={CloseIcon} alt="CloseIcon" />
             </div>
-            <h2>Wie finden die Termine statt?</h2>
+            <h2>Wie läuft das Beratungsgespräch ab?</h2>
             <p>
-              Lorem ipsum dolor sit amet. Non consequatur molestiae rem debitis
-              voluptatibus sed blanditiis commodi sit maiores repellat. Nam
-              provident rerum qui illo eaque vel pariatur totam sed quia quaerat
-              et veritatis quos et eligendi atque cum eaque soluta! Sed dolores
-              eaque eum voluptate aliquam vel harum nihil sed porro magni est
-              rerum natus rem necessitatibus veniam aut explicabo dicta. Et
-              illum accusantium cum omnis rerum ut eius optio qui consequatur
-              maiores qui ducimus internos.
+              An der Universität hast Du viel gelernt. Aber bei den Themen
+              Vorsorge und Versicherungen sieht es auf dem Lehrplan mau aus.
+              Doch jetzt sind wir für dich da und zeigen dir, worauf es wirklich
+              ankommt.
             </p>
           </div>
         </div>
@@ -119,19 +174,10 @@ export default function FeFinance() {
             >
               <img src={CloseIcon} alt="CloseIcon" />
             </div>
-            <h2>
-              {" "}
-              Wie garantiert ihr eine unabhängige und individuelle Beratung?
-            </h2>
+            <h2> Kann die Beratung auch online stattfinden?</h2>
             <p>
-              Lorem ipsum dolor sit amet. Non consequatur molestiae rem debitis
-              voluptatibus sed blanditiis commodi sit maiores repellat. Nam
-              provident rerum qui illo eaque vel pariatur totam sed quia quaerat
-              et veritatis quos et eligendi atque cum eaque soluta! Sed dolores
-              eaque eum voluptate aliquam vel harum nihil sed porro magni est
-              rerum natus rem necessitatibus veniam aut explicabo dicta. Et
-              illum accusantium cum omnis rerum ut eius optio qui consequatur
-              maiores qui ducimus internos.
+              Du kannst dich sowohl persönlich als auch online beraten lassen.
+              Wenn du hierzu Fragen hast, komme gerne auf uns zu.
             </p>
           </div>
         </div>
@@ -146,39 +192,11 @@ export default function FeFinance() {
             >
               <img src={CloseIcon} alt="CloseIcon" />
             </div>
-            <h2> Mit welchem Partner Arbeitet ihr zusammen?</h2>
+            <h2> Warum FE Finance?</h2>
             <p>
-              Lorem ipsum dolor sit amet. Non consequatur molestiae rem debitis
-              voluptatibus sed blanditiis commodi sit maiores repellat. Nam
-              provident rerum qui illo eaque vel pariatur totam sed quia quaerat
-              et veritatis quos et eligendi atque cum eaque soluta! Sed dolores
-              eaque eum voluptate aliquam vel harum nihil sed porro magni est
-              rerum natus rem necessitatibus veniam aut explicabo dicta. Et
-              illum accusantium cum omnis rerum ut eius optio qui consequatur
-              maiores qui ducimus internos.
-            </p>
-          </div>
-        </div>
-      )}
-      {modalOpen5 && (
-        <div className="fe-finace-modal-wrapper">
-          <div className="fe-finace-modal">
-            <div
-              className="close-right-alignment"
-              onClick={() => setModalOpen5(!modalOpen5)}
-            >
-              <img src={CloseIcon} alt="CloseIcon" />
-            </div>
-            <h2> Was sind Inhalte der Beratung zum Start ins Referendariat?</h2>
-            <p>
-              Lorem ipsum dolor sit amet. Non consequatur molestiae rem debitis
-              voluptatibus sed blanditiis commodi sit maiores repellat. Nam
-              provident rerum qui illo eaque vel pariatur totam sed quia quaerat
-              et veritatis quos et eligendi atque cum eaque soluta! Sed dolores
-              eaque eum voluptate aliquam vel harum nihil sed porro magni est
-              rerum natus rem necessitatibus veniam aut explicabo dicta. Et
-              illum accusantium cum omnis rerum ut eius optio qui consequatur
-              maiores qui ducimus internos.
+              Mit FE Finance kannst du gelassen in deine Zukunft als Lehrkraft
+              blicken. Denn von uns bekommst du alles mit an die Hand, was du
+              für einen sorgenfreien Start ins Referendariat benötigst.
             </p>
           </div>
         </div>
