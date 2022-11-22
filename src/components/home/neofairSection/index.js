@@ -44,7 +44,7 @@ export default function NeofairSection() {
             </div>
             <div className="grid-items">
               <div className="white-box">
-                <h3>Wir lieben das was wir tun</h3>
+                <h3>Ausgezeichnet dank unserer Kund:innen</h3>
                 <div className="all-icon-text-grid-alignment">
                   <div className="main-content">
                     <div className="icon-grid">
@@ -54,13 +54,13 @@ export default function NeofairSection() {
                         </div>
                       </div>
                       <div className="icon-grid-items">
-                        <h4>300+ zufriedene Kunden</h4>
+                        <h4>500+ Kund:innen</h4>
                       </div>
                     </div>
                     <div className="text-style">
                       <p>
-                        Haben sich bereits von unserem Service überzeugen
-                        lassen.
+                        Sind von unserer Verbraucherschutzkonformen Beratung
+                        überzeugt
                       </p>
                     </div>
                   </div>
@@ -72,13 +72,13 @@ export default function NeofairSection() {
                         </div>
                       </div>
                       <div className="icon-grid-items">
-                        <h4>97% Empfehlen unseren Service weiter</h4>
+                        <h4>98% empfehlen uns weiter</h4>
                       </div>
                     </div>
                     <div className="text-style">
                       <p>
-                        Alle waren so zufrieden mit uns, das sie uns direkt
-                        weiterempfohlen haben
+                        Deine Kommilitonen sind von unserem Service überzeugt
+                        und empfehlen uns direkt weiter
                       </p>
                     </div>
                   </div>
@@ -91,14 +91,14 @@ export default function NeofairSection() {
                       </div>
                       <div className="icon-grid-items">
                         <h4>
-                          5/5 Sterne - verifizierte Bewertungen auf Google
+                        Ausgezeichnet von ProvenExpert als Top-Dienstleister 2022
                         </h4>
                       </div>
                     </div>
                     <div className="text-style">
                       <p>
-                        Wir sind überglücklich, dass ihr unsere Arbeit so gut
-                        bewertet. Vielen Dank.
+                        Wir sind unfassbar stolz über das positive Feedback
+                        unserer Kund:innen
                       </p>
                     </div>
                   </div>

@@ -233,9 +233,9 @@ export default function Recruiting() {
                   >
                     Zusammen macht's mehr Spaß: Bringe Kommilitonen mit
                   </option>
-                  <option value="group1plus">Group1+</option>
-                  <option value="group2plus">Group2+</option>
-                  <option value="group5plus">Group5+</option>
+                  <option value="group1plus">+1</option>
+                  <option value="group2plus">+2</option>
+                  <option value="group5plus">Gruppe (5+)</option>
                 </select>
 
                 <span

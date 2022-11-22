@@ -155,6 +155,11 @@
                             display: flex;
                             justify-content: center;
 
+                            img {
+                                max-width: 50px;
+                                max-height: 40px;
+                            }
+
                             @include breakpoint("max-sm") {
                                 height: 30px;
                                 display: flex;
@@ -179,9 +184,15 @@
                                 line-height: 17px;
                                 font-family: "VisbyBold";
                                 text-align: center;
+                                height: 34px;
+
+                                @include breakpoint("max-md") {
+                                    height: auto;
+                                }
 
                                 @include breakpoint("max-sm") {
                                     font-weight: 700;
+                                    height: auto;
                                     font-size: 13px;
                                     line-height: 16px;
                                     text-align: center;

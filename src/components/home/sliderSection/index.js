@@ -50,6 +50,7 @@ export default function SliderSection() {
             <Slider {...settings}>
               <div>
                 <div className="slider-text-style">
+                  <h5>Marieke</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />
@@ -70,6 +71,7 @@ export default function SliderSection() {
               </div>
               <div>
                 <div className="slider-text-style">
+                  <h5>Sofia</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />
@@ -94,6 +96,7 @@ export default function SliderSection() {
               </div>
               <div>
                 <div className="slider-text-style">
+                  <h5>Lennard</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />
@@ -119,6 +122,7 @@ export default function SliderSection() {
               </div>
               <div>
                 <div className="slider-text-style">
+                  <h5>Selim</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./feFinance.scss";
-import FragenIcon from "../../../assets/images/fragen.svg";
+import FragenIcon from "../../../assets/images/fragen.jpg";
 import CloseIcon from "../../../assets/images/close.svg";
 export default function FeFinance() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -50,77 +50,6 @@ export default function FeFinance() {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="fe-finance-bottom-text-alignment">
-        <div className="container-md5">
-          <h2>Unsere Mehrwerte auf einen Blick:</h2>
-          <div className="text-grid">
-            <div className="text-grid-items">
-              <i class="fa-solid fa-check"></i>
-            </div>
-            <div className="text-grid-items">
-              <span>
-                {" "}
-                Individuelle Beratung für Student*innen, Referendar*innen und
-                Lehrer*innen
-              </span>
-            </div>
-          </div>
-          <div className="text-grid">
-            <div className="text-grid-items">
-              <i class="fa-solid fa-check"></i>
-            </div>
-            <div className="text-grid-items">
-              <span>
-                {" "}
-                Maßgeschneiderte Versicherungen und Sparlösungen für Deinen
-                Lifestyle
-              </span>
-            </div>
-          </div>
-          <div className="text-grid">
-            <div className="text-grid-items">
-              <i class="fa-solid fa-check"></i>
-            </div>
-            <div className="text-grid-items">
-              <span>
-                Unabhängige Lösungen ohne Bindung an konkrete
-                Versicherungsgesellschaften
-              </span>
-            </div>
-          </div>
-          <div className="text-grid">
-            <div className="text-grid-items">
-              <i class="fa-solid fa-check"></i>
-            </div>
-            <div className="text-grid-items">
-              <span>
-                Smarte Empfehlungen, die Dir eine Menge Geld einsparen
-              </span>
-            </div>
-          </div>
-          <div className="text-grid">
-            <div className="text-grid-items">
-              <i class="fa-solid fa-check"></i>
-            </div>
-            <div className="text-grid-items">
-              <span>
-                {" "}
-                Echte Expertise von Profis, die sich auf die Absicherung von
-                Lehrkräften spezialisiert haben
-              </span>
-            </div>
-          </div>
-          <div className="text-grid">
-            <div className="text-grid-items">
-              <i class="fa-solid fa-check"></i>
-            </div>
-            <div className="text-grid-items">
-              <span> Verbraucherschutzkonform nach DIN 77230</span>
             </div>
           </div>
         </div>
