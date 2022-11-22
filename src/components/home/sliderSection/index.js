@@ -50,7 +50,6 @@ export default function SliderSection() {
             <Slider {...settings}>
               <div>
                 <div className="slider-text-style">
-                  <h5>Jason Sasse</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />
@@ -59,18 +58,18 @@ export default function SliderSection() {
                     <img src={UnionIcon} alt="UnionIcon" />
                   </div>
                   <p>
-                    Mein Versicherungsmakler steht mir immer zur Verfügung wenn
-                    ich fragen habe und ist super toll zum zusammenarbeiten.
-                    Hier bleibe ich gerne, denn hier wird sich gekümmert und
-                    wirklich das Interesse des Versicherten im Auge behalten.
-                    Außerdem sind alle nett und freundlich.
+                    ”Ardian ist wirklich ein super Berater für angehende Lehrer
+                    und Lehrerinnen! Er konnte mir bei meinen Fragen und
+                    Bedenken sehr gut helfen. Er nimmt sich zudem sehr viel Zeit
+                    und Erklärt alles anschaulich und verständlich. Alle
+                    Einzelheiten, Klauseln, Abkürzungen und das Kleingedruckte
+                    wurden geduldig besprochen. So konnten wir relativ schnell
+                    zu einer guten Lösung für mich kommen.”
                   </p>
-                  <a>VERIFIZIERTE GOOGLE BEWERTUNG</a>
                 </div>
               </div>
               <div>
                 <div className="slider-text-style">
-                  <h5>Jason Sasse</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />
@@ -79,18 +78,22 @@ export default function SliderSection() {
                     <img src={UnionIcon} alt="UnionIcon" />
                   </div>
                   <p>
-                    Mein Versicherungsmakler steht mir immer zur Verfügung wenn
-                    ich fragen habe und ist super toll zum zusammenarbeiten.
-                    Hier bleibe ich gerne, denn hier wird sich gekümmert und
-                    wirklich das Interesse des Versicherten im Auge behalten.
-                    Außerdem sind alle nett und freundlich.
+                    “Danke für die Geduld und die super Beratung! Ardian hat
+                    sich sehr viel Zeit für mich genommen. Alles lief
+                    verständlich und Schritt für Schritt. Es gab keine "dummen"
+                    Fragen. Das fand ich toll, weil ich mit dem ganzen
+                    "Versicherungskram" echt ein wenig überfordert war. Er hat
+                    mir alle Klauseln und Abläufe sehr einfach erklärt sodass
+                    ich sie als Laie auch verstehen konnte. Wir konnten trotz
+                    einiger Vorerkrankungen die passenden Versicherungen für
+                    mich finden. Nachdem ich Horror Geschichten von Kommilitonen
+                    gehört hatte war ich wirklich sehr froh das alles so easy
+                    abgelaufen ist. Danke nochmal!”
                   </p>
-                  <a>VERIFIZIERTE GOOGLE BEWERTUNG</a>
                 </div>
               </div>
               <div>
                 <div className="slider-text-style">
-                  <h5>Jason Sasse</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />
@@ -99,18 +102,23 @@ export default function SliderSection() {
                     <img src={UnionIcon} alt="UnionIcon" />
                   </div>
                   <p>
-                    Mein Versicherungsmakler steht mir immer zur Verfügung wenn
-                    ich fragen habe und ist super toll zum zusammenarbeiten.
-                    Hier bleibe ich gerne, denn hier wird sich gekümmert und
-                    wirklich das Interesse des Versicherten im Auge behalten.
-                    Außerdem sind alle nett und freundlich.
+                    “Anfangs war ich erstmal skeptisch, weil man ja immer im
+                    denkt, dass Versicherungsverteter etwas verkaufen wollen.
+                    Dabei wusste ich garnicht das es da auch noch Unterschiede
+                    gibt. Ich bin durch das Webinar aufmerksam geworden und
+                    dachte mir: kann ja nichts schief gehen, wenn es kostenlos
+                    ist. Alles ist vollkommen unverbindlich und ich fühle mich
+                    bei Ardian immer top beraten. Es wird einem nichts
+                    aufgedrängt und neben der Berücksichtigung individueller
+                    Wünsche hat Ardian für mich das Preis-Leistungstechnisch
+                    beste Angebot gefunden.. egal ob Dienstunfähigkeit,
+                    Krankenversicherung, Haftpflicht. Ich kann ihn nur weiter
+                    empfehlen! “
                   </p>
-                  <a>VERIFIZIERTE GOOGLE BEWERTUNG</a>
                 </div>
               </div>
               <div>
                 <div className="slider-text-style">
-                  <h5>Jason Sasse</h5>
                   <div className="rating-icon-alignment">
                     <img src={UnionIcon} alt="UnionIcon" />
                     <img src={UnionIcon} alt="UnionIcon" />
@@ -119,13 +127,15 @@ export default function SliderSection() {
                     <img src={UnionIcon} alt="UnionIcon" />
                   </div>
                   <p>
-                    Mein Versicherungsmakler steht mir immer zur Verfügung wenn
-                    ich fragen habe und ist super toll zum zusammenarbeiten.
-                    Hier bleibe ich gerne, denn hier wird sich gekümmert und
-                    wirklich das Interesse des Versicherten im Auge behalten.
-                    Außerdem sind alle nett und freundlich.
+                    “Alles Top! Habe mir sehr viel Zeit und Stress erspart.
+                    Dadurch das Henning Versicherungsmakler ist und somit
+                    unabhängig ist habe ich mir sehr viel Zeit gespart mit
+                    Angeboten vergleichen. Er konnte mir sehr unkompliziert und
+                    schnell Angebote von verschiedenen Versicherungen einholen.
+                    Fast schon wie ein Vergleichsportal nur besser und
+                    persönlicher. So darf es in Zukunft gerne bleiben. Danke
+                    Kennet und bis bald!”
                   </p>
-                  <a>VERIFIZIERTE GOOGLE BEWERTUNG</a>
                 </div>
               </div>
             </Slider>

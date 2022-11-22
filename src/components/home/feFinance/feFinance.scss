@@ -124,6 +124,8 @@
                         line-height: 26px;
                         cursor: pointer;
                         text-align: right;
+                        font-family: "VisbyCF-Medium";
+                        letter-spacing: .5px;
                         color: #000000;
                         margin: 0;
 
@@ -171,6 +173,7 @@
             font-size: 16px;
             line-height: 19px;
             padding: 0 0 3px 0;
+            font-family: "VisbyBold";
             color: #1F3702;
 
             @include breakpoint("max-sm") {
@@ -184,6 +187,7 @@
         p {
             font-weight: 500;
             color: #1F3702;
+            font-family: "VisbyCF-Medium";
             text-align: center;
             font-size: 32px;
             line-height: 39px;
@@ -221,7 +225,45 @@
             padding: 20px;
         }
 
+        .text-grid {
+            display: grid;
+            grid-template-columns: 16px 1fr;
+            gap: 16px;
+            padding: 0 0 16px 0;
+            max-width: 600px;
+            margin: 0 auto;
+
+            span {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 24px;
+                cursor: pointer;
+                color: #000000;
+                margin: 0;
+                font-family: "VisbyCF-Medium";
+                display: block;
+
+                @include breakpoint("max-sm") {
+                    font-size: 13px;
+                }
+            }
+
+        }
+
         h2 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            margin: 0 0 15px 0;
+
+            @include breakpoint("max-sm") {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        h4 {
             font-weight: 600;
             font-size: 20px;
             line-height: 24px;
@@ -265,6 +307,7 @@
     h2 {
         font-weight: 500;
         color: #000;
+        font-family: "VisbyCF-Medium";
         text-align: center;
         font-size: 32px;
         margin: 0 0 60px 0;
@@ -295,6 +338,7 @@
             cursor: pointer;
             color: #000000;
             margin: 0;
+            font-family: "VisbyCF-Medium";
             display: block;
 
             @include breakpoint("max-sm") {

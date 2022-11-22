@@ -198,6 +198,73 @@ export default function FeFinance() {
               blicken. Denn von uns bekommst du alles mit an die Hand, was du
               für einen sorgenfreien Start ins Referendariat benötigst.
             </p>
+            <br />
+            <h4>Unsere Mehrwerte auf einen Blick:</h4>
+            <div className="text-grid">
+              <div className="text-grid-items">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div className="text-grid-items">
+                <span>
+                  {" "}
+                  Individuelle Beratung für Student*innen, Referendar*innen und
+                  Lehrer*innen
+                </span>
+              </div>
+            </div>
+            <div className="text-grid">
+              <div className="text-grid-items">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div className="text-grid-items">
+                <span>
+                  {" "}
+                  Maßgeschneiderte Versicherungen und Sparlösungen für Deinen
+                  Lifestyle
+                </span>
+              </div>
+            </div>
+            <div className="text-grid">
+              <div className="text-grid-items">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div className="text-grid-items">
+                <span>
+                  Unabhängige Lösungen ohne Bindung an konkrete
+                  Versicherungsgesellschaften
+                </span>
+              </div>
+            </div>
+            <div className="text-grid">
+              <div className="text-grid-items">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div className="text-grid-items">
+                <span>
+                  Smarte Empfehlungen, die Dir eine Menge Geld einsparen
+                </span>
+              </div>
+            </div>
+            <div className="text-grid">
+              <div className="text-grid-items">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div className="text-grid-items">
+                <span>
+                  {" "}
+                  Echte Expertise von Profis, die sich auf die Absicherung von
+                  Lehrkräften spezialisiert haben
+                </span>
+              </div>
+            </div>
+            <div className="text-grid">
+              <div className="text-grid-items">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div className="text-grid-items">
+                <span> Verbraucherschutzkonform nach DIN 77230</span>
+              </div>
+            </div>
           </div>
         </div>
       )}

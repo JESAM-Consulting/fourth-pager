@@ -34,6 +34,11 @@
 }
 
 @font-face {
+    font-family: "VisbyCF-Medium";
+    src: url("../../assets/font/VisbyCF-Medium.otf");
+}
+
+@font-face {
     font-family: "Branding-Medium";
     src: url("../../assets/font/Branding\ Medium.otf");
 }
@@ -49,11 +54,12 @@
         color: #fff;
         padding: 15px 40px;
         background: #9DBC78;
+        font-family: "VisbyCF-Medium";
+
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
         cursor: pointer;
-        font-family: 'Inter', sans-serif;
         border-radius: 7px;
 
         @include breakpoint("max-md") {

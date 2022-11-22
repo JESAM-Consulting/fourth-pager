@@ -24,6 +24,7 @@
             font-size: 32px;
             color: #1F3702;
             line-height: 39px;
+            font-family: "VisbyCF-Medium";
 
             @include breakpoint("max-sm") {
                 font-weight: 500;

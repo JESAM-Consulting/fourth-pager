@@ -104,6 +104,7 @@
                     font-size: 20px;
                     text-align: center;
                     line-height: 24px;
+                    font-family: "VisbyBold";
                 }
 
                 .main-content {}
@@ -125,6 +126,7 @@
                             text-align: center;
                             line-height: 16px;
                             color: #000000;
+                            font-family: "VisbyRegular";
 
                             @include breakpoint("max-sm") {
                                 font-weight: 400;
@@ -175,6 +177,7 @@
                                 margin: 0;
                                 font-size: 14px;
                                 line-height: 17px;
+                                font-family: "VisbyBold";
                                 text-align: center;
 
                                 @include breakpoint("max-sm") {
@@ -204,6 +207,7 @@
         h4 {
             font-weight: 500;
             font-size: 32px;
+            font-family: "VisbyCF-Medium";
             line-height: 39px;
             color: #1F3702;
             margin: 0 0 11px 0;
@@ -219,6 +223,7 @@
 
         p {
             font-weight: 400;
+            letter-spacing: .5px;
             font-size: 14px;
             color: #000000;
             line-height: 19px;

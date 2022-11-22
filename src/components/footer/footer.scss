@@ -48,6 +48,7 @@
                 font-weight: 600;
                 font-size: 40px;
                 line-height: 48px;
+                font-family: "VisbyBold";
                 margin: 0 0 30px 0;
                 color: #FFFFFF;
 
@@ -70,7 +71,7 @@
                 cursor: pointer;
                 display: flex;
                 align-items: center;
-                font-family: 'Inter', sans-serif;
+                font-family: "VisbyCF-Medium";
                 justify-content: center;
                 border: none;
 
@@ -119,6 +120,8 @@
             font-size: 12px;
             line-height: 15px;
             color: #FFFFFF;
+            font-family: "VisbyCF-Medium";
+            letter-spacing: .5px;
             margin: 0;
             cursor: pointer;
 
@@ -149,6 +152,8 @@
             margin: 0;
             padding: 0 3px;
             cursor: pointer;
+            font-family: "VisbyCF-Medium";
+            letter-spacing: .5px;
 
             @include breakpoint("max-sm") {
                 font-weight: 500;

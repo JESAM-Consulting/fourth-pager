@@ -28,6 +28,11 @@
 
         }
 
+        a {
+            display: block;
+            width: 100%;
+        }
+
         button {
             border: 1px solid #fff;
             color: #fff;
@@ -36,6 +41,7 @@
             border: 1px solid #FFFFFF;
             font-weight: 500;
             font-size: 24px;
+            font-family: "VisbyCF-Medium";
             line-height: 29px;
             cursor: pointer;
             border-radius: 7px;

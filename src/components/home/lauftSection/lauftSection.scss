@@ -26,6 +26,7 @@
             color: #1F3702;
             text-align: center;
             line-height: 39px;
+            font-family: "VisbyCF-Medium";
 
             @include breakpoint("max-sm") {
                 font-weight: 500;
@@ -78,6 +79,7 @@
                 h2 {
                     font-weight: 500;
                     margin: 0 0 10px 0;
+                    font-family: "VisbyCF-Medium";
                     font-size: 20px;
                     line-height: 26px;
                     color: #000;
@@ -94,6 +96,8 @@
                     font-weight: 400;
                     font-size: 12px;
                     line-height: 19px;
+                    font-family: "VisbyRegular";
+                    letter-spacing: .5px;
                     color: #000;
 
                     @include breakpoint("max-sm") {
