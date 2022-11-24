@@ -15,8 +15,8 @@ export default function HeroBanner() {
           <div className="container-md">
             <div className="text-style">
               <h1>
-                Kostenloser Erste-Hilfe-Kurs für Deinen Start{" "}
-                <span>ins Referendariat</span>
+                Kostenloser Erste-Hilfe-Kurs{" "}
+                <a> für Deinen Start ins Referendariat</a>
               </h1>
               <p>
                 Du startest bald als Lehrkraft durch? Dann sicher dir jetzt

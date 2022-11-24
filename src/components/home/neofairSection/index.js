@@ -83,24 +83,30 @@ export default function NeofairSection() {
                     </div>
                   </div>
                   <div className="main-content">
-                    <div className="icon-grid">
-                      <div className="icon-grid-items">
-                        <div className="icon-design">
-                          <img src={Image09} alt="Image09" />
+                    <a
+                      href="https://www.provenexpert.com/fe-finance-gmbh/?utm_source=Widget&utm_medium=Widget&utm_campaign=Widget"
+                      target="_blank"
+                    >
+                      <div className="icon-grid">
+                        <div className="icon-grid-items">
+                          <div className="icon-design">
+                            <img src={Image09} alt="Image09" />
+                          </div>
+                        </div>
+                        <div className="icon-grid-items">
+                          <h4>
+                            Ausgezeichnet von ProvenExpert als Top-Dienstleister
+                            2022
+                          </h4>
                         </div>
                       </div>
-                      <div className="icon-grid-items">
-                        <h4>
-                        Ausgezeichnet von ProvenExpert als Top-Dienstleister 2022
-                        </h4>
+                      <div className="text-style">
+                        <p>
+                          Wir sind unfassbar stolz über das positive Feedback
+                          unserer Kund:innen
+                        </p>
                       </div>
-                    </div>
-                    <div className="text-style">
-                      <p>
-                        Wir sind unfassbar stolz über das positive Feedback
-                        unserer Kund:innen
-                      </p>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>

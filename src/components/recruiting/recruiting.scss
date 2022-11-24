@@ -217,3 +217,20 @@
 input {
     color-scheme: dark;
 }
+
+.new-form-col-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.new-zusament-text-content {
+    padding: 20px 0 5px 0;
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+    }
+}

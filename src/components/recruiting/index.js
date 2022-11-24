@@ -49,10 +49,10 @@ export default function Recruiting() {
       errors["lname"] = "*Bitte überprüfen Sie ihre Eingabe.";
     }
 
-    if (!inputValue?.postalCode || inputValue?.postalCode === "") {
-      isFormValid = false;
-      errors["postalCode"] = "*Bitte überprüfen Sie ihre Eingabe.";
-    }
+    // if (!inputValue?.postalCode || inputValue?.postalCode === "") {
+    //   isFormValid = false;
+    //   errors["postalCode"] = "*Bitte überprüfen Sie ihre Eingabe.";
+    // }
 
     if (
       !inputValue?.email?.trim() ||
@@ -121,45 +121,52 @@ export default function Recruiting() {
               </div>
               <div className="box-width">
                 <h6>Jetzt Kontakt aufnehmen</h6>
-                <input
-                  type="text"
-                  placeholder="Vorname"
-                  id="fname"
-                  name="fname"
-                  value={inputValue?.fname}
-                  onChange={(e) => {
-                    handleOnChange(e);
-                  }}
-                />
-                <span
-                  style={{
-                    color: "red",
-                    top: "5px",
-                    fontSize: "12px",
-                  }}
-                >
-                  {errors["fname"]}
-                </span>
-                <input
-                  type="text"
-                  placeholder="Nachname"
-                  id="lname"
-                  name="lname"
-                  value={inputValue?.lname}
-                  onChange={(e) => {
-                    handleOnChange(e);
-                  }}
-                />
-                <span
-                  style={{
-                    color: "red",
-                    top: "5px",
-                    fontSize: "12px",
-                  }}
-                >
-                  {errors["lname"]}
-                </span>
-                <input
+                <div className="new-form-col-grid">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Vorname"
+                      id="fname"
+                      name="fname"
+                      value={inputValue?.fname}
+                      onChange={(e) => {
+                        handleOnChange(e);
+                      }}
+                    />
+                    <span
+                      style={{
+                        color: "red",
+                        top: "5px",
+                        fontSize: "12px",
+                      }}
+                    >
+                      {errors["fname"]}
+                    </span>
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Nachname"
+                      id="lname"
+                      name="lname"
+                      value={inputValue?.lname}
+                      onChange={(e) => {
+                        handleOnChange(e);
+                      }}
+                    />
+                    <span
+                      style={{
+                        color: "red",
+                        top: "5px",
+                        fontSize: "12px",
+                      }}
+                    >
+                      {errors["lname"]}
+                    </span>
+                  </div>
+                </div>
+
+                {/* <input
                   type="text"
                   placeholder="Postleitzahl"
                   id="postalCode"
@@ -178,10 +185,10 @@ export default function Recruiting() {
                   }}
                 >
                   {errors["postalCode"]}
-                </span>
+                </span> */}
                 <input
                   type="text"
-                  placeholder=" E-Mail"
+                  placeholder="E-Mail"
                   id="email"
                   name="email"
                   value={inputValue?.email}
@@ -218,6 +225,9 @@ export default function Recruiting() {
                 >
                   {errors["phone"]}
                 </span>
+                <div className="new-zusament-text-content">
+                  <p>Zusammen macht's mehr Spaß: Bringe Kommilitonen mit</p>
+                </div>
                 <select
                   className={`form-control form-control-lg form-control-solid `}
                   onChange={(e) => {
@@ -226,12 +236,8 @@ export default function Recruiting() {
                   name="group"
                   defaultValue={inputValue?.group}
                 >
-                  <option
-                    value="Zusammen macht's mehr Spaß: Bringe Kommilitonen mit"
-                    selected
-                    disabled
-                  >
-                    Zusammen macht's mehr Spaß: Bringe Kommilitonen mit
+                  <option value="Wähle aus" selected disabled>
+                    Wähle aus
                   </option>
                   <option value="group1plus">+1</option>
                   <option value="group2plus">+2</option>
@@ -247,6 +253,9 @@ export default function Recruiting() {
                 >
                   {errors["group"]}
                 </span>
+                <div className="new-zusament-text-content">
+                  <p>“Wann startest du voraussichtlich ins Referendariat?</p>
+                </div>
                 <input
                   type="date"
                   id="trainingDate"

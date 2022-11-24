@@ -43,16 +43,8 @@
             .image-design {
                 width: 240px;
                 height: 240px;
-                object-fit: cover;
 
-                img {
-                    width: 240px;
-                    height: 240px;
-                    object-fit: cover;
-                    border-radius: 50%;
-                    object-fit: cover;
-                    object-position: center;
-                }
+                img {}
 
                 @include breakpoint("max-sm") {
                     display: flex;

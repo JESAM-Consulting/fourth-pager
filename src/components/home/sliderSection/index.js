@@ -132,7 +132,7 @@ export default function SliderSection() {
                   </div>
                   <p>
                     “Alles Top! Habe mir sehr viel Zeit und Stress erspart.
-                    Dadurch das Henning Versicherungsmakler ist und somit
+                    Dadurch das Kennet Versicherungsmakler ist und somit
                     unabhängig ist habe ich mir sehr viel Zeit gespart mit
                     Angeboten vergleichen. Er konnte mir sehr unkompliziert und
                     schnell Angebote von verschiedenen Versicherungen einholen.
