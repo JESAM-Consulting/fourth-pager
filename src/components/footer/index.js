@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import FooterImage from "../../assets/images/footer-image.svg";
+import FooterMobile from "../../assets/images/footer-mobile.png";
 import RightIcon from "../../assets/images/right-arrow.svg";
 import FacebookIcon from "../../assets/images/facebook.svg";
 import InstaIcon from "../../assets/images/insta.svg";
@@ -26,6 +27,7 @@ export default function Footer() {
             <div className="grid-items">
               <div className="image-style">
                 <img src={FooterImage} alt="FooterImage" />
+                <img src={FooterMobile} alt="FooterMobile" />
               </div>
             </div>
           </div>

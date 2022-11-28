@@ -1,13 +1,13 @@
 import React from "react";
 import "./lauftSection.scss";
 import Image1 from "../../../assets/images/1.svg";
-import Image001 from "../../../assets/images/001.svg";
+import Image001 from "../../../assets/images/001.png";
 import Image2 from "../../../assets/images/2.svg";
-import Image002 from "../../../assets/images/002.svg";
+import Image002 from "../../../assets/images/002.png";
 import Image3 from "../../../assets/images/3.svg";
-import Image003 from "../../../assets/images/003.svg";
+import Image003 from "../../../assets/images/003.png";
 import Image4 from "../../../assets/images/4.svg";
-import Image004 from "../../../assets/images/004.svg";
+import Image004 from "../../../assets/images/004.png";
 export default function LauftSection() {
   return (
     <div>

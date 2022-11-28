@@ -42,7 +42,22 @@
                 @include breakpoint("max-sm") {
                     height: auto;
                 }
+
+                img:first-child {
+                    @include breakpoint("max-sm") {
+                        display: none;
+                    }
+                }
+
+                img:last-child {
+                    display: none;
+
+                    @include breakpoint("max-sm") {
+                        display: block;
+                    }
+                }
             }
+
 
             h2 {
                 font-weight: 600;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./feFinance.scss";
-import FragenIcon from "../../../assets/images/fragen.svg";
+import FragenIcon from "../../../assets/images/fragen.png";
 import CloseIcon from "../../../assets/images/close.svg";
 export default function FeFinance() {
   const [modalOpen, setModalOpen] = useState(false);

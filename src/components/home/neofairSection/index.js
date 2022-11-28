@@ -9,7 +9,7 @@ import Image05 from "../../../assets/images/05.svg";
 import Image06 from "../../../assets/images/06.svg";
 import Image08 from "../../../assets/images/08.svg";
 import Image09 from "../../../assets/images/09.svg";
-import Image010 from "../../../assets/images/mobile-05.svg";
+import Image010 from "../../../assets/images/mobile-05.png";
 import Image5 from "../../../assets/images/5.svg";
 
 import RightIcon from "../../../assets/images/button-right.svg";
