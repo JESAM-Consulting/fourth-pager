@@ -1,9 +1,13 @@
 import React from "react";
 import "./lauftSection.scss";
 import Image1 from "../../../assets/images/1.svg";
+import Image001 from "../../../assets/images/001.svg";
 import Image2 from "../../../assets/images/2.svg";
+import Image002 from "../../../assets/images/002.svg";
 import Image3 from "../../../assets/images/3.svg";
+import Image003 from "../../../assets/images/003.svg";
 import Image4 from "../../../assets/images/4.svg";
+import Image004 from "../../../assets/images/004.svg";
 export default function LauftSection() {
   return (
     <div>
@@ -16,6 +20,7 @@ export default function LauftSection() {
             <div className="grid-items">
               <div className="image-rounded">
                 <img src={Image1} alt="Image1" />
+                <img src={Image001} alt="Image001" />
               </div>
               <div className="card-details">
                 <div className="counter">1</div>
@@ -30,6 +35,7 @@ export default function LauftSection() {
             <div className="grid-items">
               <div className="image-rounded">
                 <img src={Image2} alt="Image2" />
+                <img src={Image002} alt="Image002" />
               </div>
               <div className="card-details">
                 <div className="counter">2</div>
@@ -43,6 +49,7 @@ export default function LauftSection() {
             <div className="grid-items">
               <div className="image-rounded">
                 <img src={Image3} alt="Image3" />
+                <img src={Image003} alt="Image003" />
               </div>
               <div className="card-details">
                 <div className="counter">3</div>
@@ -57,6 +64,7 @@ export default function LauftSection() {
             <div className="grid-items">
               <div className="image-rounded">
                 <img src={Image4} alt="Image4" />
+                <img src={Image004} alt="Image004" />
               </div>
               <div className="card-details">
                 <div className="counter">4</div>

@@ -119,13 +119,14 @@ export default function Recruiting() {
               <div className="common-text">
                 <NavLink to="/">zurück zur Website</NavLink>
               </div>
-              <div className="box-width">
+              <div className="box-width floating-form">
                 <h6>Jetzt Kontakt aufnehmen</h6>
                 <div className="new-form-col-grid">
-                  <div>
+                  <div class="floating-label">
                     <input
+                      class="floating-input"
                       type="text"
-                      placeholder="Vorname"
+                      placeholder=" "
                       id="fname"
                       name="fname"
                       value={inputValue?.fname}
@@ -133,6 +134,8 @@ export default function Recruiting() {
                         handleOnChange(e);
                       }}
                     />
+                    <span class="highlight"></span>
+                    <label>Vorname</label>
                     <span
                       style={{
                         color: "red",
@@ -143,10 +146,11 @@ export default function Recruiting() {
                       {errors["fname"]}
                     </span>
                   </div>
-                  <div>
+                  <div class="floating-label">
                     <input
+                      class="floating-input"
                       type="text"
-                      placeholder="Nachname"
+                      placeholder=" "
                       id="lname"
                       name="lname"
                       value={inputValue?.lname}
@@ -154,6 +158,8 @@ export default function Recruiting() {
                         handleOnChange(e);
                       }}
                     />
+                    <span class="highlight"></span>
+                    <label>Nachname</label>
                     <span
                       style={{
                         color: "red",
@@ -166,68 +172,60 @@ export default function Recruiting() {
                   </div>
                 </div>
 
-                {/* <input
-                  type="text"
-                  placeholder="Postleitzahl"
-                  id="postalCode"
-                  name="postalCode"
-                  value={inputValue?.postalCode}
-                  onChange={(e) => {
-                    handleOnChange(e);
-                  }}
-                  onKeyPress={bindInput}
-                />
-                <span
-                  style={{
-                    color: "red",
-                    top: "5px",
-                    fontSize: "12px",
-                  }}
-                >
-                  {errors["postalCode"]}
-                </span> */}
-                <input
-                  type="text"
-                  placeholder="E-Mail"
-                  id="email"
-                  name="email"
-                  value={inputValue?.email}
-                  onChange={(e) => {
-                    handleOnChange(e);
-                  }}
-                />
-                <span
-                  style={{
-                    color: "red",
-                    top: "5px",
-                    fontSize: "12px",
-                  }}
-                >
-                  {errors["email"]}
-                </span>
-                <input
-                  type="text"
-                  placeholder="Telefon"
-                  id="phone"
-                  name="phone"
-                  value={inputValue?.phone}
-                  onChange={(e) => {
-                    handleOnChange(e);
-                  }}
-                  onKeyPress={bindInput}
-                />
-                <span
-                  style={{
-                    color: "red",
-                    top: "5px",
-                    fontSize: "12px",
-                  }}
-                >
-                  {errors["phone"]}
-                </span>
+                <div class="floating-label">
+                  <input
+                    class="floating-input"
+                    placeholder=" "
+                    type="text"
+                    id="email"
+                    name="email"
+                    value={inputValue?.email}
+                    onChange={(e) => {
+                      handleOnChange(e);
+                    }}
+                  />
+                  <span class="highlight"></span>
+                  <label>Email</label>
+                  <span
+                    style={{
+                      color: "red",
+                      top: "5px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    {errors["email"]}
+                  </span>
+                </div>
+
+                <div class="floating-label">
+                  <input
+                    class="floating-input"
+                    placeholder=" "
+                    id="phone"
+                    name="phone"
+                    value={inputValue?.phone}
+                    onChange={(e) => {
+                      handleOnChange(e);
+                    }}
+                    onKeyPress={bindInput}
+                  />
+                  <span class="highlight"></span>
+                  <label>Telefon</label>
+                  <span
+                    style={{
+                      color: "red",
+                      top: "5px",
+                      fontSize: "12px",
+                    }}
+                  >
+                    {errors["phone"]}
+                  </span>
+                </div>
+
                 <div className="new-zusament-text-content">
                   <p>Zusammen macht's mehr Spaß: Bringe Kommilitonen mit</p>
                 </div>
+
                 <select
                   className={`form-control form-control-lg form-control-solid `}
                   onChange={(e) => {
@@ -254,7 +252,7 @@ export default function Recruiting() {
                   {errors["group"]}
                 </span>
                 <div className="new-zusament-text-content">
-                  <p>“Wann startest du voraussichtlich ins Referendariat?</p>
+                  <p>Wann startest du voraussichtlich ins Referendariat?</p>
                 </div>
                 <input
                   type="date"

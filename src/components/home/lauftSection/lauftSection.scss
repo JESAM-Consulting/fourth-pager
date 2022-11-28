@@ -114,6 +114,20 @@
                     height: 173px;
                 }
 
+                img:first-child {
+                    @include breakpoint("max-sm") {
+                        display: none;
+                    }
+                }
+
+                img:last-child {
+                    display: none;
+
+                    @include breakpoint("max-sm") {
+                        display: block;
+                    }
+                }
+
                 img {
                     width: 271px;
                     height: 271px;

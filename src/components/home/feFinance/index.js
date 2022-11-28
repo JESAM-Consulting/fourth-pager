@@ -26,7 +26,7 @@ export default function FeFinance() {
                   </p>
                 </div>
                 <div>
-                  <p onClick={() => setModalOpen2(!modalOpen2)}>
+                  <p className="sec-question-top-align" onClick={() => setModalOpen2(!modalOpen2)}>
                     Wie läuft das Beratungsgespräch ab?
                   </p>
                 </div>
