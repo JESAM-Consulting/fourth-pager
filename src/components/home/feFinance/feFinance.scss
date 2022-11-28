@@ -82,10 +82,9 @@
 
                         @include breakpoint("max-sm") {
                             font-weight: 500;
-                            font-size: 11px;
-                            line-height: 13px;
+                            font-size: 14px;
+                            line-height: 20px;
                             text-align: center;
-                            margin: 0 0 7px 0;
                         }
                     }
 
@@ -142,8 +141,8 @@
 
                         @include breakpoint("max-sm") {
                             font-weight: 500;
-                            font-size: 11px;
-                            line-height: 13px;
+                            font-size: 14px;
+                            line-height: 20px;
                             margin: 0 0 3px 0;
                             text-align: center;
                         }

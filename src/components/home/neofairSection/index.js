@@ -2,9 +2,9 @@ import React from "react";
 import "./neofairSection.scss";
 import Image6 from "../../../assets/images/icon6.svg";
 import Image01 from "../../../assets/images/01.svg";
-import Image02 from "../../../assets/images/02.svg";
-import Image03 from "../../../assets/images/03.svg";
-import Image04 from "../../../assets/images/04.svg";
+import Image02 from "../../../assets/images/02.png";
+import Image03 from "../../../assets/images/03.jpg";
+import Image04 from "../../../assets/images/04.png";
 import Image05 from "../../../assets/images/05.svg";
 import Image06 from "../../../assets/images/06.svg";
 import Image08 from "../../../assets/images/08.svg";
@@ -134,14 +134,6 @@ export default function NeofairSection() {
             </div>
             <div>
               <img src={Image04} alt="Image04" />
-            </div>
-          </div>
-          <div className="two-icon-alignment">
-            <div>
-              <img src={Image05} alt="Image05" />
-            </div>
-            <div>
-              <img src={Image06} alt="Image06" />
             </div>
           </div>
         </div>

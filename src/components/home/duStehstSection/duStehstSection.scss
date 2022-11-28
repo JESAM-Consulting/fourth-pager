@@ -49,11 +49,10 @@
 
         @include breakpoint("max-sm") {
             font-weight: 400;
-            font-size: 9px;
-            max-width: 271px;
+            font-size: 14px;
             text-align: center;
             margin: 0 auto 15px auto;
-            line-height: 16px;
+            line-height: 21px;
         }
     }
 

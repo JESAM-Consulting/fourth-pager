@@ -4,7 +4,7 @@
     padding: 65px 0 83px 0;
 
     @include breakpoint("max-sm") {
-        padding: 45px 0 100px 0;
+        padding: 45px 0 60px 0;
     }
 
     .icon-image-center-alignment {
@@ -12,7 +12,6 @@
         justify-content: center;
         align-items: center;
         justify-content: space-between;
-        padding: 0 0 50px 0;
         gap: 60px;
 
         @include breakpoint("max-sm") {
@@ -21,8 +20,32 @@
             gap: 26px;
         }
 
+        div:nth-child(2) {
+            @include breakpoint("max-sm") {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        div:nth-child(4) {
+            @include breakpoint("max-sm") {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
         div {
             cursor: pointer;
+
+            img {
+                max-width: 180px;
+                max-height: 90px;
+
+                @include breakpoint("max-sm") {
+                    max-width: 112px;
+                    max-height: 50px;
+                }
+            }
         }
     }
 
