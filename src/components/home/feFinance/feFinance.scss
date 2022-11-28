@@ -358,3 +358,19 @@
 
     }
 }
+
+.plus-text-icon-alignment-for-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    i {
+        display: none;
+        color: #000;
+        cursor: pointer;
+
+        @include breakpoint("max-sm") {
+            display: block;
+        }
+    }
+}

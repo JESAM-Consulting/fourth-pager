@@ -20,15 +20,21 @@ export default function FeFinance() {
           <div className="grid">
             <div className="grid-items">
               <div className="left-side-text-alignment">
-                <div>
-                  <p onClick={() => setModalOpen(!modalOpen)}>
-                    Wo finden die Erste-Hilfe-Kurse statt?
-                  </p>
+                <div className="plus-text-icon-alignment-for-page">
+                  <p>Wo finden die Erste-Hilfe-Kurse statt?</p>
+                  <i
+                    onClick={() => setModalOpen(!modalOpen)}
+                    class="fa-solid fa-plus"
+                  ></i>
                 </div>
-                <div>
-                  <p className="sec-question-top-align" onClick={() => setModalOpen2(!modalOpen2)}>
+                <div className="plus-text-icon-alignment-for-page">
+                  <p className="sec-question-top-align">
                     Wie läuft das Beratungsgespräch ab?
                   </p>
+                  <i
+                    onClick={() => setModalOpen2(!modalOpen2)}
+                    class="fa-solid fa-plus"
+                  ></i>
                 </div>
               </div>
             </div>
@@ -39,15 +45,19 @@ export default function FeFinance() {
             </div>
             <div className="grid-items">
               <div className="right-text">
-                <div>
-                  <p onClick={() => setModalOpen3(!modalOpen3)}>
-                    Kann die Beratung auch online stattfinden?
-                  </p>
+                <div className="plus-text-icon-alignment-for-page">
+                  <p>Kann die Beratung auch online stattfinden?</p>
+                  <i
+                    onClick={() => setModalOpen3(!modalOpen3)}
+                    class="fa-solid fa-plus"
+                  ></i>{" "}
                 </div>
-                <div>
-                  <p onClick={() => setModalOpen4(!modalOpen4)}>
-                    Warum FE Finance?
-                  </p>
+                <div className="plus-text-icon-alignment-for-page">
+                  <p>Warum FE Finance?</p>
+                  <i
+                    onClick={() => setModalOpen4(!modalOpen4)}
+                    class="fa-solid fa-plus"
+                  ></i>{" "}
                 </div>
               </div>
             </div>
