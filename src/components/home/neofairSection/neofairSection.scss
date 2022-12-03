@@ -20,6 +20,13 @@
             gap: 26px;
         }
 
+        div {
+            @include breakpoint("max-sm") {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
         div:nth-child(2) {
             @include breakpoint("max-sm") {
                 display: flex;
@@ -54,9 +61,31 @@
         display: flex;
         justify-content: center;
         gap: 64px;
+        padding: 50px 0 0 0;
+
+        @include breakpoint("max-sm") {
+            padding: 26px 0 0 0;
+        }
 
         div {
             cursor: pointer;
+        }
+
+        div:last-child {
+            img {
+                width: 180px;
+            }
+        }
+
+
+        img {
+            max-width: 180px;
+            max-height: 90px;
+
+            @include breakpoint("max-sm") {
+                max-width: 112px;
+                max-height: 50px;
+            }
         }
     }
 

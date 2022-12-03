@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../footer";
 import "../home/home.scss";
 import DuStehstSection from "./duStehstSection";

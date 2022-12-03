@@ -11,6 +11,8 @@ import Image08 from "../../../assets/images/08.svg";
 import Image09 from "../../../assets/images/09.svg";
 import Image010 from "../../../assets/images/mobile-05.png";
 import Image5 from "../../../assets/images/5.svg";
+import Image0005 from "../../../assets/images/new-0001.png";
+import Image0006 from "../../../assets/images/min.svg";
 
 import RightIcon from "../../../assets/images/button-right.svg";
 import { NavLink } from "react-router-dom";
@@ -134,6 +136,14 @@ export default function NeofairSection() {
             </div>
             <div>
               <img src={Image04} alt="Image04" />
+            </div>
+          </div>
+          <div className="two-icon-alignment">
+            <div>
+              <img src={Image0005} alt="Image0005" />
+            </div>
+            <div>
+              <img src={Image0006} alt="Image0006" />
             </div>
           </div>
         </div>

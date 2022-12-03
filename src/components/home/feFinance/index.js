@@ -20,21 +20,21 @@ export default function FeFinance() {
           <div className="grid">
             <div className="grid-items">
               <div className="left-side-text-alignment">
-                <div className="plus-text-icon-alignment-for-page">
+                <div
+                  className="plus-text-icon-alignment-for-page"
+                  onClick={() => setModalOpen(!modalOpen)}
+                >
                   <p>Wo finden die Erste-Hilfe-Kurse statt?</p>
-                  <i
-                    onClick={() => setModalOpen(!modalOpen)}
-                    class="fa-solid fa-plus"
-                  ></i>
+                  <i class="fa-solid fa-plus"></i>
                 </div>
-                <div className="plus-text-icon-alignment-for-page">
+                <div
+                  className="plus-text-icon-alignment-for-page"
+                  onClick={() => setModalOpen2(!modalOpen2)}
+                >
                   <p className="sec-question-top-align">
                     Wie läuft das Beratungsgespräch ab?
                   </p>
-                  <i
-                    onClick={() => setModalOpen2(!modalOpen2)}
-                    class="fa-solid fa-plus"
-                  ></i>
+                  <i class="fa-solid fa-plus"></i>
                 </div>
               </div>
             </div>
@@ -45,19 +45,19 @@ export default function FeFinance() {
             </div>
             <div className="grid-items">
               <div className="right-text">
-                <div className="plus-text-icon-alignment-for-page">
+                <div
+                  className="plus-text-icon-alignment-for-page"
+                  onClick={() => setModalOpen3(!modalOpen3)}
+                >
                   <p>Kann die Beratung auch online stattfinden?</p>
-                  <i
-                    onClick={() => setModalOpen3(!modalOpen3)}
-                    class="fa-solid fa-plus"
-                  ></i>{" "}
+                  <i class="fa-solid fa-plus"></i>{" "}
                 </div>
-                <div className="plus-text-icon-alignment-for-page">
+                <div
+                  className="plus-text-icon-alignment-for-page"
+                  onClick={() => setModalOpen4(!modalOpen4)}
+                >
                   <p>Warum FE Finance?</p>
-                  <i
-                    onClick={() => setModalOpen4(!modalOpen4)}
-                    class="fa-solid fa-plus"
-                  ></i>{" "}
+                  <i class="fa-solid fa-plus"></i>{" "}
                 </div>
               </div>
             </div>
