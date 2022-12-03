@@ -1,6 +1,6 @@
 import React from "react";
 import "./lauftSection.scss";
-import Image1 from "../../../assets/images/1.svg";
+import Image1 from "../../../assets/images/card1.png";
 import Image001 from "../../../assets/images/001.png";
 import Image2 from "../../../assets/images/2.svg";
 import Image002 from "../../../assets/images/002.png";

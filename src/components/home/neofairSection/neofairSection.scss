@@ -47,6 +47,8 @@
             img {
                 max-width: 180px;
                 max-height: 90px;
+                object-fit: cover;
+                object-position: center;
 
                 @include breakpoint("max-sm") {
                     max-width: 112px;
@@ -116,7 +118,8 @@
                     width: 100%;
                     border-radius: 20px 20px 20px 100px;
                     height: 518px;
-
+                    object-fit: cover;
+                    object-position: center;
                     @include breakpoint("max-sm") {
                         height: 339px;
                     }

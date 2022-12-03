@@ -7,27 +7,31 @@ export default function HeroBanner() {
   return (
     <div>
       <div className="hero-banner-design">
-        <div className="logo">
-          <img src={FeLogo} alt="FeLogo" />
-          <img src={FeLogoWhite} alt="FeLogoWhite" />
+        <div className="navbar-container">
+          <div className="container-logo">
+            <div className="logo">
+              <img src={FeLogo} alt="FeLogo" />
+              <img src={FeLogoWhite} alt="FeLogoWhite" />
+            </div>
+          </div>
+          <div className="button button-top">
+            <NavLink to="/recruiting">
+              <button>Zum kostenfreien Erste Hilfe Kurs</button>
+            </NavLink>
+          </div>
         </div>
         <div className="hero-banner-text">
           <div className="container-md">
             <div className="text-style">
-              <h1>
-                Kostenloser Erste-Hilfe-Kurs{" "}
-                <a> für Deinen Start ins Referendariat</a>
-              </h1>
+              <h1>Kostenloser Erste-Hilfe-Kurs</h1>
+              <h2 className="subtitle">für Deinen Start ins Referendariat</h2>
               <p>
                 Du startest bald als Lehrkraft durch? Dann sicher dir jetzt
                 deinen kostenlosen Erste-Hilfe-Kurs!
               </p>
               <div className="button">
                 <NavLink to="/recruiting">
-                  <button>
-                    Sicher dir jetzt Deinen kostenfreien Erste Hilfe Kurs in
-                    wenigen Sekunden
-                  </button>
+                  <button>Zum kostenfreien Erste Hilfe Kurs</button>
                 </NavLink>
               </div>
             </div>

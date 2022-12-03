@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 753px;
+    height: 100vh;
     position: relative;
 
     &::before {
@@ -18,67 +18,90 @@
         background-color: rgba(0, 0, 0, 0.4);
     }
 
-    @include breakpoint("max-sm") {
-        background-image: url("../../../assets/images/mobile-banner.svg");
-        height: 434px;
+    @include breakpoint("max-md"){
+        height: 480px;
     }
 
-    .logo {
-        max-width: 100%;
-        width: 100%;
-        padding: 40px 50px;
-        cursor: pointer;
+    @include breakpoint("max-sm") {
+        background-image: url("../../../assets/images/mobile-banner.svg");
+        height: 485px;
+    }
+
+    .navbar-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         position: relative;
+        padding: 40px 50px;
 
         @include breakpoint("max-md") {
             padding: 27px 30px 0 30px;
             display: flex;
             align-items: center;
-            justify-content: flex-end;
+            justify-content: flex-start;
         }
-
-        img:first-child {
-            @include breakpoint("max-sm") {
+        
+        .button-top{
+            @include breakpoint("max-md"){
                 display: none;
             }
         }
 
-        img:last-child {
-            display: none;
+        .container-logo{
+            display: flex;
 
-            @include breakpoint("max-sm") {
-                display: block;
-            }
-        }
-
-        img {
-            @include breakpoint("max-md") {
-                max-width: 53px;
+            .logo {
+                max-width: 100%;
+                width: 100%;    
+                cursor: pointer;
+                position: relative;
+        
+                
+        
+                img:first-child {
+                    @include breakpoint("max-sm") {
+                        display: none;
+                    }
+                }
+        
+                img:last-child {
+                    display: none;
+        
+                    @include breakpoint("max-sm") {
+                        display: block;
+                    }
+                }
+        
+                img {
+                    @include breakpoint("max-md") {
+                        max-width: 70px;
+                    }
+                }
             }
         }
     }
 
     .hero-banner-text {
-        padding: 190px 0 0 0;
+        padding: 11rem 0 0 0;
         position: relative;
 
         @include breakpoint("max-md") {
-            padding: 140px 0 0 0;
+            padding: 100px 0 0 0;
         }
 
         .text-style {
             h1 {
                 font-weight: 700;
-                font-size: 32px;
-                line-height: 39px;
+                font-size: 2.5rem;
+                line-height: 2.5rem;
                 font-family: "VisbyBold";
                 color: #fff;
-                max-width: 460px;
+                max-width: 40rem;
                 margin: 0 0 10px 0;
 
                 @include breakpoint("max-md") {
                     font-weight: 700;
-                    font-size: 20px;
+                    font-size: 1.8rem;
                     line-height: 24px;
                 }
 
@@ -89,13 +112,25 @@
                 a {
                     font-weight: 400;
                     color: #fff;
+                }
+            }
 
+            .subtitle{
+                color: white;
+                font-size: 2rem;
+                line-height: 2rem;
+                font-weight: 300;
+                margin-bottom: 1rem;
+
+                @include breakpoint("max-md"){
+                    font-size: 1.5rem;
+                    line-height: 1.25rem;
                 }
             }
 
             p {
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 1.2rem;
                 line-height: 25px;
                 font-family: "VisbyRegular";
                 margin: 0 0 40px 0;
@@ -110,6 +145,9 @@
                     margin: 0 0 20px 0;
                 }
             }
+
+            
         }
+        
     }
 }

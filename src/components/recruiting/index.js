@@ -16,8 +16,7 @@ export default function Recruiting() {
   const [terms, setTerms] = useState(false);
   const [successMessage, setSuccessMessage] = useState(false);
 
-  const regexEmail =
-    /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+  const regexEmail = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -141,8 +140,7 @@ export default function Recruiting() {
                         color: "red",
                         top: "5px",
                         fontSize: "12px",
-                      }}
-                    >
+                      }}>
                       {errors["fname"]}
                     </span>
                   </div>
@@ -165,8 +163,7 @@ export default function Recruiting() {
                         color: "red",
                         top: "5px",
                         fontSize: "12px",
-                      }}
-                    >
+                      }}>
                       {errors["lname"]}
                     </span>
                   </div>
@@ -191,8 +188,7 @@ export default function Recruiting() {
                       color: "red",
                       top: "5px",
                       fontSize: "12px",
-                    }}
-                  >
+                    }}>
                     {errors["email"]}
                   </span>
                 </div>
@@ -216,14 +212,16 @@ export default function Recruiting() {
                       color: "red",
                       top: "5px",
                       fontSize: "12px",
-                    }}
-                  >
+                    }}>
                     {errors["phone"]}
                   </span>
                 </div>
 
                 <div className="new-zusament-text-content">
-                  <p>Zusammen macht's mehr Spaß: Bringe Kommilitonen mit</p>
+                  <p>
+                    Zusammen macht's mehr Spaß: <br />
+                    Bringe Kommilitonen mit
+                  </p>
                 </div>
 
                 <select
@@ -232,8 +230,7 @@ export default function Recruiting() {
                     handleOnChange(e);
                   }}
                   name="group"
-                  defaultValue={inputValue?.group}
-                >
+                  defaultValue={inputValue?.group}>
                   <option value="Wähle aus" selected disabled>
                     Wähle aus
                   </option>
@@ -247,8 +244,7 @@ export default function Recruiting() {
                     color: "red",
                     top: "5px",
                     fontSize: "12px",
-                  }}
-                >
+                  }}>
                   {errors["group"]}
                 </span>
                 <div className="new-zusament-text-content">
@@ -268,8 +264,7 @@ export default function Recruiting() {
                     color: "red",
                     top: "5px",
                     fontSize: "12px",
-                  }}
-                >
+                  }}>
                   {errors["trainingDate"]}
                 </span>
 

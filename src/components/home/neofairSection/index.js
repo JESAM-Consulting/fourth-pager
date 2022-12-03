@@ -10,7 +10,7 @@ import Image06 from "../../../assets/images/06.svg";
 import Image08 from "../../../assets/images/08.svg";
 import Image09 from "../../../assets/images/09.svg";
 import Image010 from "../../../assets/images/mobile-05.png";
-import Image5 from "../../../assets/images/5.svg";
+import Image5 from "../../../assets/images/5.webp";
 import Image0005 from "../../../assets/images/new-0001.png";
 import Image0006 from "../../../assets/images/min.svg";
 
@@ -87,8 +87,7 @@ export default function NeofairSection() {
                   <div className="main-content">
                     <a
                       href="https://www.provenexpert.com/fe-finance-gmbh/?utm_source=Widget&utm_medium=Widget&utm_campaign=Widget"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="icon-grid">
                         <div className="icon-grid-items">
                           <div className="icon-design">
